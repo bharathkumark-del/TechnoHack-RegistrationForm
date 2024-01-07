@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h2>Registration Form</h2>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text">
+            <label for="email">Email</label>
+            <input type="text" />
+            <label for="name">Gender</label></br>
+            <div class="gen">
+                <input type="radio" value="male" name="gender">Male
+                <input type="radio" value="female" name="gender">Female</br>
+            </div>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" id="date"></br>
+            <label for="pas">Password</label>
+            <input type="password" id="pas1">
+            <label for="pas2">Confirm Password</label>
+            <input type="password" id="pas2">
+            <div class="btn">
+                <button type="submit" onclick="mss()">Submit</button>
+                <button type="reset">Clear</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+<script>
+    function mss() {
+        alert("registration success!!")
+    }
+</script>
+
+</html>
